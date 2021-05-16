@@ -1,16 +1,14 @@
 # startup_namer
 
-A new Flutter project.
+This app generates proposals for StartUp names. 
 
-## Getting Started
+This should sound familiar, as this code is a refactor of the app which is produced when you follow [Flutter CodeLabs part 1 & 2](https://flutter.dev/docs/codelabs). This refactor uses an implementation of the BLoC architecture.
 
-This project is a starting point for a Flutter application.
+You can find the original solution [here](https://github.com/flutter/codelabs/blob/codelab/startup_namer/step8_themes/lib/main.dart).
 
-A few resources to get you started if this is your first Flutter project:
+There are 2 branches: `main` and `without entities`. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The `without entities` branch exposes the implementation of the word pairs. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The `main` branch refactors the repository to deliver Domain Entities with ids and shows how those ids are used to translate selection indexes to ids. 
+
